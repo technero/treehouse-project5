@@ -4,6 +4,27 @@
  * @version 1.11.1
  * @url https://github.com/feimosi/baguetteBox.js
  */
+
+.search-wrapper {
+    display: flexbox;
+    outline-color: #ccc;
+    text-align: center;
+}
+
+#search {
+    width: 60%;
+    font-size: 25px;
+
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 10px;
+
+}
+
 #baguetteBox-overlay {
     display: none;
     opacity: 0;
