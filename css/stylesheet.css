@@ -17,6 +17,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    margin-top: 10px;
+    margin: 20px;
+    justify-content: space-around;
+}
 
+img {
+    display: block;
+    margin: auto;
 }
